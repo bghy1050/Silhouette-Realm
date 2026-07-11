@@ -3,9 +3,9 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"10场景7a_atlas_1", frames: [[0,0,1048,378],[1050,142,858,140],[1050,0,863,140],[388,522,434,156],[0,522,386,184],[824,522,197,140],[0,380,1137,140],[1139,407,734,121],[1139,284,738,121]]},
+		{name:"10场景7a_atlas_1", frames: [[0,439,1778,378],[0,819,1774,378],[0,1199,1740,378],[0,0,1654,437],[0,1579,1331,411]]},
 		{name:"10场景7a_atlas_2", frames: [[0,1657,1615,275],[0,413,1709,275],[0,1103,1624,275],[0,1380,1624,275],[0,0,1237,411],[0,690,1142,411]]},
-		{name:"10场景7a_atlas_3", frames: [[0,439,1778,378],[0,819,1774,378],[0,1199,1740,378],[0,0,1654,437],[0,1579,1331,411]]}
+		{name:"10场景7a_atlas_3", frames: [[0,0,1048,378],[1050,142,858,140],[1050,0,863,140],[388,522,434,156],[0,522,386,184],[824,522,197,140],[0,380,1137,140],[1139,407,734,121],[1139,284,738,121]]}
 ];
 
 
@@ -29,141 +29,141 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_157 = function() {
-	this.initialize(ss["10场景7a_atlas_3"]);
+(lib.CachedBmp_158 = function() {
+	this.initialize(ss["10场景7a_atlas_1"]);
 	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_157 = function() {
+	this.initialize(ss["10场景7a_atlas_1"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_156 = function() {
 	this.initialize(ss["10场景7a_atlas_3"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_155 = function() {
 	this.initialize(ss["10场景7a_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_154 = function() {
-	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_153 = function() {
-	this.initialize(ss["10场景7a_atlas_3"]);
+(lib.CachedBmp_154 = function() {
+	this.initialize(ss["10场景7a_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_152 = function() {
+(lib.CachedBmp_153 = function() {
 	this.initialize(ss["10场景7a_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_151 = function() {
-	this.initialize(ss["10场景7a_atlas_3"]);
+(lib.CachedBmp_152 = function() {
+	this.initialize(ss["10场景7a_atlas_1"]);
 	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_151 = function() {
+	this.initialize(ss["10场景7a_atlas_2"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_150 = function() {
 	this.initialize(ss["10场景7a_atlas_2"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_149 = function() {
 	this.initialize(ss["10场景7a_atlas_2"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_148 = function() {
 	this.initialize(ss["10场景7a_atlas_2"]);
-	this.gotoAndStop(3);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_147 = function() {
 	this.initialize(ss["10场景7a_atlas_2"]);
-	this.gotoAndStop(4);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_146 = function() {
-	this.initialize(ss["10场景7a_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_145 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_144 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_145 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_143 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_144 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_142 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_143 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_141 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_142 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_140 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_141 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_139 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_140 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_138 = function() {
-	this.initialize(ss["10场景7a_atlas_1"]);
+(lib.CachedBmp_139 = function() {
+	this.initialize(ss["10场景7a_atlas_3"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
@@ -447,16 +447,16 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(346).call(this.frame_346).wait(25).call(this.frame_371).wait(414).call(this.frame_785).wait(11).call(this.frame_796).wait(449).call(this.frame_1245).wait(17).call(this.frame_1262).wait(598));
 
 	// 图层_19
-	this.instance = new lib.CachedBmp_138();
+	this.instance = new lib.CachedBmp_139();
 	this.instance.setTransform(178.4,112.65,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_139();
+	this.instance_1 = new lib.CachedBmp_140();
 	this.instance_1.setTransform(178.4,112.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},373).to({state:[{t:this.instance_1}]},424).wait(1063));
 
 	// 图层_18
-	this.instance_2 = new lib.CachedBmp_140();
+	this.instance_2 = new lib.CachedBmp_141();
 	this.instance_2.setTransform(67.3,51.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1860));
@@ -473,7 +473,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1860));
 
 	// 图层_16
-	this.instance_3 = new lib.CachedBmp_141();
+	this.instance_3 = new lib.CachedBmp_142();
 	this.instance_3.setTransform(1633.35,51.5,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1860));
@@ -500,7 +500,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(135).to({_off:false},0).to({_off:true},98).wait(326).to({_off:false},0).to({_off:true},95).wait(399).to({_off:false},0).to({_off:true},119).wait(688));
 
 	// 图层_11
-	this.instance_6 = new lib.CachedBmp_142();
+	this.instance_6 = new lib.CachedBmp_143();
 	this.instance_6.setTransform(1572.25,829.1,0.5,0.5);
 	this.instance_6._off = true;
 
@@ -518,7 +518,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_2},{t:this.movieClip_2}]},1245).wait(615));
 
 	// 图层_9
-	this.instance_7 = new lib.CachedBmp_143();
+	this.instance_7 = new lib.CachedBmp_144();
 	this.instance_7.setTransform(1550.85,826.25,0.5,0.5);
 	this.instance_7._off = true;
 
@@ -536,10 +536,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.movieClip_1}]},785).to({state:[]},12).wait(1063));
 
 	// 图层_6
-	this.instance_8 = new lib.CachedBmp_145();
+	this.instance_8 = new lib.CachedBmp_146();
 	this.instance_8.setTransform(1217.7,858.5,0.5,0.5);
 
-	this.instance_9 = new lib.CachedBmp_144();
+	this.instance_9 = new lib.CachedBmp_145();
 	this.instance_9.setTransform(380.1,873.75,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_9},{t:this.instance_8}]},346).to({state:[]},26).wait(1488));
@@ -567,40 +567,40 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_5},{t:this.movieClip_3}]},346).to({state:[]},26).wait(1488));
 
 	// 图层_3
-	this.instance_10 = new lib.CachedBmp_146();
+	this.instance_10 = new lib.CachedBmp_147();
 	this.instance_10.setTransform(713.3,797.75,0.5,0.5);
 
-	this.instance_11 = new lib.CachedBmp_147();
+	this.instance_11 = new lib.CachedBmp_148();
 	this.instance_11.setTransform(713.3,797.75,0.5,0.5);
 
-	this.instance_12 = new lib.CachedBmp_148();
+	this.instance_12 = new lib.CachedBmp_149();
 	this.instance_12.setTransform(594.15,840.55,0.5,0.5);
 
-	this.instance_13 = new lib.CachedBmp_149();
+	this.instance_13 = new lib.CachedBmp_150();
 	this.instance_13.setTransform(581.4,845.05,0.5,0.5);
 
-	this.instance_14 = new lib.CachedBmp_150();
+	this.instance_14 = new lib.CachedBmp_151();
 	this.instance_14.setTransform(554.5,840.55,0.5,0.5);
 
-	this.instance_15 = new lib.CachedBmp_151();
+	this.instance_15 = new lib.CachedBmp_152();
 	this.instance_15.setTransform(581.95,797.85,0.5,0.5);
 
-	this.instance_16 = new lib.CachedBmp_152();
+	this.instance_16 = new lib.CachedBmp_153();
 	this.instance_16.setTransform(581.95,797.85,0.5,0.5);
 
-	this.instance_17 = new lib.CachedBmp_153();
+	this.instance_17 = new lib.CachedBmp_154();
 	this.instance_17.setTransform(581.95,797.85,0.5,0.5);
 
-	this.instance_18 = new lib.CachedBmp_154();
+	this.instance_18 = new lib.CachedBmp_155();
 	this.instance_18.setTransform(557.55,800.9,0.5,0.5);
 
-	this.instance_19 = new lib.CachedBmp_155();
+	this.instance_19 = new lib.CachedBmp_156();
 	this.instance_19.setTransform(557.55,800.9,0.5,0.5);
 
-	this.instance_20 = new lib.CachedBmp_156();
+	this.instance_20 = new lib.CachedBmp_157();
 	this.instance_20.setTransform(557.55,800.9,0.5,0.5);
 
-	this.instance_21 = new lib.CachedBmp_157();
+	this.instance_21 = new lib.CachedBmp_158();
 	this.instance_21.setTransform(544.15,800.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_10}]},30).to({state:[{t:this.instance_11}]},105).to({state:[{t:this.instance_12}]},98).to({state:[{t:this.instance_13}]},1).to({state:[]},111).to({state:[{t:this.instance_14}]},27).to({state:[{t:this.instance_15}]},89).to({state:[{t:this.instance_16}]},98).to({state:[{t:this.instance_17}]},95).to({state:[]},143).to({state:[{t:this.instance_18}]},11).to({state:[{t:this.instance_19}]},120).to({state:[{t:this.instance_20}]},125).to({state:[{t:this.instance_21}]},119).wait(688));

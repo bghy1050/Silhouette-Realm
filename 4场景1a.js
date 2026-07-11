@@ -708,10 +708,6 @@ if (reversed == null) { reversed = false; }
 	this.shape_7.graphics.f("#FFFFFF").s().p("Ax8V+MgqCAAAMAAAgr7MAqCAAAMBN7AAAMAAAAr7g");
 	this.shape_7.setTransform(855.925,901.125);
 
-	this.shape_8 = new cjs.Shape();
-	this.shape_8.graphics.f().s("#000000").ss(1,1,1).p("EAm+AV+MhN7AAAEgm9gV9MBN7AAA");
-	this.shape_8.setTransform(1244.775,901.125);
-
 	this.instance_21 = new lib.CachedBmp_18();
 	this.instance_21.setTransform(792.8,773.8,0.5,0.5);
 
@@ -721,7 +717,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_23 = new lib.CachedBmp_20();
 	this.instance_23.setTransform(633.55,773.8,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2}]},57).to({state:[{t:this.shape_5},{t:this.shape_4}]},137).to({state:[{t:this.shape_4},{t:this.button_2},{t:this.button_3}]},46).to({state:[{t:this.shape_7,p:{x:855.925}},{t:this.shape_6}]},1).to({state:[{t:this.shape_7,p:{x:1110.275}},{t:this.shape_8}]},85).to({state:[{t:this.instance_22,p:{x:726.35}},{t:this.instance_21}]},34).to({state:[{t:this.instance_22,p:{x:567.1}},{t:this.instance_23}]},79).wait(71));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.shape_2}]},57).to({state:[{t:this.shape_5},{t:this.shape_4}]},137).to({state:[{t:this.shape_4},{t:this.button_2},{t:this.button_3}]},46).to({state:[{t:this.shape_7,p:{x:855.925}},{t:this.shape_6,p:{x:990.425}}]},1).to({state:[{t:this.shape_7,p:{x:1110.275}},{t:this.shape_6,p:{x:1244.775}}]},85).to({state:[{t:this.instance_22,p:{x:726.35}},{t:this.instance_21}]},34).to({state:[{t:this.instance_22,p:{x:567.1}},{t:this.instance_23}]},79).wait(71));
 
 	// 图层_3
 	this.instance_24 = new lib.补间2("synched",0);

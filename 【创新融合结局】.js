@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_234 = function() {
+(lib.CachedBmp_1 = function() {
 	this.initialize(ss["【创新融合结局】_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -102,7 +102,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(62));
 
 	// 图层_4
-	this.instance = new lib.CachedBmp_234();
+	this.instance = new lib.CachedBmp_1();
 	this.instance.setTransform(1315.5,704.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(62));

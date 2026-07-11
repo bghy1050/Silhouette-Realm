@@ -27,7 +27,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_235 = function() {
+(lib.CachedBmp_2 = function() {
 	this.initialize(ss["【古法坚守结局】_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -98,7 +98,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(60));
 
 	// 图层_3
-	this.instance = new lib.CachedBmp_235();
+	this.instance = new lib.CachedBmp_2();
 	this.instance.setTransform(751.2,795.65,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(60));

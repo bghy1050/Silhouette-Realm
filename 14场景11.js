@@ -28,28 +28,48 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_233 = function() {
-	this.initialize(img.CachedBmp_233);
+(lib.CachedBmp_236 = function() {
+	this.initialize(img.CachedBmp_236);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2846,640);
 
 
-(lib.CachedBmp_232 = function() {
-	this.initialize(img.CachedBmp_232);
+(lib.CachedBmp_235 = function() {
+	this.initialize(img.CachedBmp_235);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,3223,600);
 
 
-(lib.CachedBmp_231 = function() {
+(lib.CachedBmp_234 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_230 = function() {
+(lib.CachedBmp_233 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_232 = function() {
+	this.initialize(img.CachedBmp_232);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2143,395);
+
+
+(lib.CachedBmp_231 = function() {
+	this.initialize(ss["14场景11_atlas_2"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_230 = function() {
+	this.initialize(ss["14场景11_atlas_2"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -57,86 +77,66 @@ p.nominalBounds = new cjs.Rectangle(0,0,3223,600);
 (lib.CachedBmp_229 = function() {
 	this.initialize(img.CachedBmp_229);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2143,395);
-
-
-(lib.CachedBmp_228 = function() {
-	this.initialize(ss["14场景11_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_227 = function() {
-	this.initialize(ss["14场景11_atlas_2"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_226 = function() {
-	this.initialize(img.CachedBmp_226);
-}).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,2180,264);
 
 
-(lib.CachedBmp_225 = function() {
+(lib.CachedBmp_228 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_224 = function() {
+(lib.CachedBmp_227 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_223 = function() {
+(lib.CachedBmp_226 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_222 = function() {
+(lib.CachedBmp_225 = function() {
 	this.initialize(ss["14场景11_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_221 = function() {
+(lib.CachedBmp_224 = function() {
 	this.initialize(ss["14场景11_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_220 = function() {
+(lib.CachedBmp_223 = function() {
 	this.initialize(ss["14场景11_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_219 = function() {
+(lib.CachedBmp_222 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_218 = function() {
+(lib.CachedBmp_221 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_217 = function() {
+(lib.CachedBmp_220 = function() {
 	this.initialize(ss["14场景11_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
@@ -173,7 +173,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 图层_1
-	this.instance = new lib.CachedBmp_233();
+	this.instance = new lib.CachedBmp_236();
 	this.instance.setTransform(-478.6,-107.6,0.3364,0.3364);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -196,7 +196,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// 图层_1
-	this.instance = new lib.CachedBmp_232();
+	this.instance = new lib.CachedBmp_235();
 	this.instance.setTransform(-530.1,-98.6,0.329,0.329);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -493,10 +493,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(204).call(this.frame_204).wait(20).call(this.frame_224).wait(292).call(this.frame_516).wait(27).call(this.frame_543).wait(244).call(this.frame_787).wait(29).call(this.frame_816).wait(290));
 
 	// 图层_26
-	this.instance = new lib.CachedBmp_217();
+	this.instance = new lib.CachedBmp_220();
 	this.instance.setTransform(96.05,123.85,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_218();
+	this.instance_1 = new lib.CachedBmp_221();
 	this.instance_1.setTransform(96.05,123.85,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},227).to({state:[{t:this.instance_1}]},321).wait(558));
@@ -523,7 +523,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(553).to({_off:false},0).to({_off:true},74).wait(479));
 
 	// 图层_21
-	this.instance_5 = new lib.CachedBmp_219();
+	this.instance_5 = new lib.CachedBmp_222();
 	this.instance_5.setTransform(687.05,677.65,0.5,0.5);
 	this.instance_5._off = true;
 
@@ -542,13 +542,13 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape},{t:this.button_2}]},787).wait(319));
 
 	// 图层_19
-	this.instance_6 = new lib.CachedBmp_220();
+	this.instance_6 = new lib.CachedBmp_223();
 	this.instance_6.setTransform(540.3,597.55,0.5,0.5);
 
-	this.instance_7 = new lib.CachedBmp_221();
+	this.instance_7 = new lib.CachedBmp_224();
 	this.instance_7.setTransform(580.8,631.25,0.5,0.5);
 
-	this.instance_8 = new lib.CachedBmp_222();
+	this.instance_8 = new lib.CachedBmp_225();
 	this.instance_8.setTransform(561.05,664.15,0.5,0.5);
 
 	this.instance_9 = new lib.补间2("synched",0);
@@ -589,10 +589,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(233).to({_off:false},0).to({_off:true},86).wait(787));
 
 	// 图层_12
-	this.instance_14 = new lib.CachedBmp_224();
+	this.instance_14 = new lib.CachedBmp_227();
 	this.instance_14.setTransform(1161.75,788.85,0.5,0.5);
 
-	this.instance_15 = new lib.CachedBmp_223();
+	this.instance_15 = new lib.CachedBmp_226();
 	this.instance_15.setTransform(417.6,767.4,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_15},{t:this.instance_14}]},204).to({state:[]},24).wait(878));
@@ -624,7 +624,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_3},{t:this.button_3}]},204).to({state:[]},24).wait(878));
 
 	// 图层_16
-	this.instance_16 = new lib.CachedBmp_225();
+	this.instance_16 = new lib.CachedBmp_228();
 	this.instance_16.setTransform(690.1,724.55,0.5,0.5);
 	this.instance_16._off = true;
 
@@ -643,19 +643,19 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_4},{t:this.button_1}]},516).to({state:[]},28).wait(562));
 
 	// 图层_9
-	this.instance_17 = new lib.CachedBmp_226();
+	this.instance_17 = new lib.CachedBmp_229();
 	this.instance_17.setTransform(446.6,694.7,0.5,0.5);
 
-	this.instance_18 = new lib.CachedBmp_227();
+	this.instance_18 = new lib.CachedBmp_230();
 	this.instance_18.setTransform(535.4,694.7,0.5,0.5);
 
-	this.instance_19 = new lib.CachedBmp_228();
+	this.instance_19 = new lib.CachedBmp_231();
 	this.instance_19.setTransform(544.55,676.4,0.5,0.5);
 
-	this.instance_20 = new lib.CachedBmp_229();
+	this.instance_20 = new lib.CachedBmp_232();
 	this.instance_20.setTransform(474.1,679.9,0.5,0.5);
 
-	this.instance_21 = new lib.CachedBmp_230();
+	this.instance_21 = new lib.CachedBmp_233();
 	this.instance_21.setTransform(520.05,679.9,0.5,0.5);
 
 	this.instance_22 = new lib.补间1("synched",0);
@@ -687,7 +687,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_25).wait(99).to({_off:false},0).to({_off:true},49).wait(958));
 
 	// 图层_3
-	this.instance_26 = new lib.CachedBmp_231();
+	this.instance_26 = new lib.CachedBmp_234();
 	this.instance_26.setTransform(64.45,63.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_26).wait(1106));
@@ -722,10 +722,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_233.png", id:"CachedBmp_233"},
+		{src:"images/CachedBmp_236.png", id:"CachedBmp_236"},
+		{src:"images/CachedBmp_235.png", id:"CachedBmp_235"},
 		{src:"images/CachedBmp_232.png", id:"CachedBmp_232"},
 		{src:"images/CachedBmp_229.png", id:"CachedBmp_229"},
-		{src:"images/CachedBmp_226.png", id:"CachedBmp_226"},
 		{src:"images/_20个25D绿色小建筑设计36.png", id:"_20个25D绿色小建筑设计36"},
 		{src:"images/_20个25D绿色小建筑设计37.png", id:"_20个25D绿色小建筑设计37"},
 		{src:"images/_20个25D绿色小建筑设计48.png", id:"_20个25D绿色小建筑设计48"},
