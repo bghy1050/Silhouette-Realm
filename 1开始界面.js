@@ -29,14 +29,14 @@ lib.ssMetadata = [
 
 
 (lib.剪影秘境千纹锁21 = function() {
-	this.initialize(ss["1开始界面_atlas_2"]);
+	this.initialize(ss["1开始界面_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.剪影秘境千纹锁1 = function() {
-	this.initialize(ss["1开始界面_atlas_1"]);
+	this.initialize(ss["1开始界面_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -264,7 +264,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(295).to({_off:false},0).to({alpha:0.9414},8).to({_off:true},42).wait(1786));
 
 	// 图层_1
-	this.instance_4 = new lib.an_Video({'id': 'instance_4', 'src':'videos/《剪影秘境：千纹锁》开头.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':false, 'poster':'', 'preload':true, 'class':'video'});
+	this.instance_4 = new lib.an_Video({'id': 'instance_4', 'src':'videos/《剪影秘境：千纹锁》开头.mp4', 'autoplay':true, 'controls':false, 'muted':false, 'loop':false, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_4.setTransform(960,540,4.8,3.6,0,0,0,200,150);
 
@@ -283,13 +283,13 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/jimeng202606277208剪影秘境千纹锁非遗剪纸主题互动剧本杀宣传海报双主角林砚现代青年和苏晓剪纸.png?1782667395681", id:"jimeng202606277208剪影秘境千纹锁非遗剪纸主题互动剧本杀宣传海报双主角林砚现代青年和苏晓剪纸"},
-		{src:"images/1开始界面_atlas_1.png?1782667395626", id:"1开始界面_atlas_1"},
-		{src:"images/1开始界面_atlas_2.png?1782667395626", id:"1开始界面_atlas_2"},
-		{src:"sounds/_1开屏琵琶语林海.mp3?1782667395681", id:"_1开屏琵琶语林海"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1782667395681", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1782667395681", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1782667395681", id:"an.Video"}
+		{src:"images/jimeng202606277208剪影秘境千纹锁非遗剪纸主题互动剧本杀宣传海报双主角林砚现代青年和苏晓剪纸.png", id:"jimeng202606277208剪影秘境千纹锁非遗剪纸主题互动剧本杀宣传海报双主角林砚现代青年和苏晓剪纸"},
+		{src:"images/1开始界面_atlas_1.png", id:"1开始界面_atlas_1"},
+		{src:"images/1开始界面_atlas_2.png", id:"1开始界面_atlas_2"},
+		{src:"sounds/_1开屏琵琶语林海.mp3", id:"_1开屏琵琶语林海"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js", id:"an.Video"}
 	],
 	preloads: []
 };
